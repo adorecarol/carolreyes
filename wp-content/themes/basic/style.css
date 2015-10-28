@@ -6,3 +6,220 @@
 
 
 
+html, body {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+
+a:hover {
+	text-decoration: none;
+	font-weight: 400;
+}
+
+/* ------------------------ HELPERS ------------------------ */
+
+.separator {
+	display: block;
+	border-bottom: 1px #eee solid;
+	margin: 10px 0px;
+}
+
+
+.ender {
+	display: block;
+	width: 200px;
+	height: 5px;
+	margin: 50px 0px 100px 0px;
+	background-color: #d51c5d;
+}
+
+
+
+/* ------------------------ BOOTSTRAP ---------------------- */
+
+.progress-bar-success {
+    background-color: #d51c5d;
+}
+
+
+/* ------------------------ HEADER ------------------------- */
+
+#header {
+	padding-top: 30px;
+}
+
+
+.logo {
+	margin-bottom: 30px;
+
+}
+
+.logo img {
+}
+
+
+/* ------------------------ MAIN NAV ----------------------- */
+
+.nav li a {
+	color:#888;
+	line-height: 15px;
+	padding: 5px 0px;
+}
+
+
+.nav li a:hover, .nav li a:focus {
+	background: none;
+	color: #d51c5d;
+}
+
+
+.nav li a:visited {
+	background: none;
+}
+
+
+/* ------------------------ SOCIAL ------------------------- */
+
+ul.social {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul.social li a {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	line-height: 36px;
+	background: url('images/social.png') no-repeat;
+	text-indent: -9999px;
+	float: left;
+	margin-right: 6px;
+}
+
+
+ul.social li.fb a { background-position: 0 0; }
+ul.social li.fb a:hover { background-position: 0 -32px; }
+
+ul.social li.tw a { background-position: -32px 0px; }
+ul.social li.tw a:hover { background-position: -32px -32px; }
+
+ul.social li.ig a { background-position: -64px 0px; }
+ul.social li.ig a:hover { background-position: -64px -32px; }
+
+
+/* ------------------------ ADS ---------------------------- */
+
+.ads {
+	clear: both;
+	padding-top: 50px;
+}
+
+
+.ads a {
+	color: #ccc;
+	font-weight: 400;
+}
+
+.ads a:hover {
+	color: #888;
+}
+
+/* ------------------------ CONTENT ------------------------ */
+
+.content {
+	background-color: #fafafa;
+	padding: 30px;
+}
+
+
+.content h2 {
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: 400;
+	color: #d51c5d;
+}
+
+
+.content h2 a {
+	color: #d51c5d;
+}
+
+
+.content h2 a:hover {
+	color: #666;
+}
+
+
+/* ------------------------ PAGES -------------------------- */
+
+
+h4 {
+	color: #666;
+	border-bottom: 2px #888888 solid;
+	display: block;
+	line-height: 35px;
+	text-transform: uppercase;
+	padding: 20px 0px 2px 0px;
+}
+
+
+
+/* ------------------------ POSTS -------------------------- */
+
+
+.feat-image {
+	margin-bottom: 35px;
+}
+
+
+.meta, .meta a, .tags a {
+	color: #777;
+	text-transform: lowercase;
+}
+
+
+.tags {
+	margin-top: 100px;
+}
+
+
+/*.color-overlay {
+background: rgba(213,28,93,0.4);
+overflow: hidden;
+height: 100%;
+z-index: 2;
+}*/
+
+
+
+/* ------------------------ GALLERY ------------------------ */
+
+
+
+/* ------------------------ FOOTER ------------------------- */
+
+#footer {
+	display: inline-block;
+	padding: 10px 0px;
+	margin-bottom: 10px;
+}
+
+
+.copy {
+	color: #bbb;
+}
+
+
+
+
+
+
+
+
+
+
+
